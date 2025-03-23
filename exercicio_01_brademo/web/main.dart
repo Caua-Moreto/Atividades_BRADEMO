@@ -2,6 +2,7 @@ import 'model/laptop.dart';
 import 'model/house.dart';
 import 'model/cat.dart';
 import 'model/camera.dart';
+import 'package:web/web.dart' as web;
 
 void main() {
   // Laptops
@@ -41,4 +42,11 @@ void main() {
   cam1.exibirDetalhes();
   cam2.exibirDetalhes();
   cam3.exibirDetalhes();
+
+  final now = DateTime.now();
+  final element = web.document.querySelector('#output') as web.HTMLDivElement;
+  element.text =
+      'Agora é ${now.hour}:${now.minute}. '
+      'Os resultados irão aparecer no console, na inspeção de elementos!';
+
 }

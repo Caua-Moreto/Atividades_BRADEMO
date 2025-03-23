@@ -3,6 +3,7 @@ class Laptop {
   String nome;
   int ram;
 
+  // Construtor
   Laptop(this.id, this.nome, this.ram);
 
   void exibirDetalhes() {

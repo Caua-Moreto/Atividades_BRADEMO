@@ -4,6 +4,7 @@ class Camera {
   String _cor;
   double _preco;
 
+  // Construtor
   Camera(this._id, this._marca, this._cor, this._preco);
 
   // Getters & Setters
@@ -11,7 +12,7 @@ class Camera {
   String get marca => _marca;
   String get cor => _cor;
   double get preco => _preco;
-  
+
   set id(int novoId) => _id = novoId;
   set marca(String novaMarca) => _marca = novaMarca;
   set cor(String novaCor) => _cor = novaCor;
@@ -24,6 +25,7 @@ class Camera {
   }
 
   void exibirDetalhes() {
-    print("ID: $_id, Marca: $_marca, Cor: $_cor, Preço: R\$${_preco.toStringAsFixed(2)}");
+    print("ID: $_id, Marca: $_marca, Cor: $_cor, Preço: R\$${_preco.toStringAsFixed(2)}"); 
+    // o toStringAsFixed serve para formatar nºs decimais
   }
 }

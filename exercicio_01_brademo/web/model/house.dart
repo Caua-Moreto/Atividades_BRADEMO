@@ -3,6 +3,7 @@ class House {
   String nome;
   double preco;
 
+  // Construtor
   House(this.id, this.nome, this.preco);
 
   void exibirDetalhes() {

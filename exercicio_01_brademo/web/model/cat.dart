@@ -3,6 +3,7 @@ import 'animal.dart';
 class Cat extends Animal {
   String som;
 
+  // Construtor
   Cat(int id, String nome, String cor, this.som) : super(id, nome, cor);
 
   void exibirDetalhes() {
