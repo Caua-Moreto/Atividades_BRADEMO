@@ -4,7 +4,7 @@ class Cat extends Animal {
   String som;
 
   // Construtor
-  Cat(int id, String nome, String cor, this.som) : super(id, nome, cor);
+  Cat(super.id, super.nome, super.cor, this.som);
 
   void exibirDetalhes() {
     print("ID: $id, Nome: $nome, Cor: $cor, Som: $som");
