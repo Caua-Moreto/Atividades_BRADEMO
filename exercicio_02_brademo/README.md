@@ -1,3 +1,10 @@
 # exercicio_02_brademo
 
-A new Flutter project.
+Os projetos estão em
+
+
+lib:
+. pages:
+. . primeiro_exercicio.dart
+. . segundo_exercicio.dart
+. main.dart
